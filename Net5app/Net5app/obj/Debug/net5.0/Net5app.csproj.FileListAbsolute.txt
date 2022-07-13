@@ -14,3 +14,19 @@ C:\Users\URAJKOVIC\OneDrive - MATHEMA GmbH\Desktop\udemy-practice\Net5app\Net5ap
 C:\Users\URAJKOVIC\OneDrive - MATHEMA GmbH\Desktop\udemy-practice\Net5app\Net5app\obj\Debug\net5.0\Net5app.pdb
 C:\Users\URAJKOVIC\OneDrive - MATHEMA GmbH\Desktop\udemy-practice\Net5app\Net5app\obj\Debug\net5.0\Net5app.genruntimeconfig.cache
 C:\Users\URAJKOVIC\OneDrive - MATHEMA GmbH\Desktop\udemy-practice\Net5app\Net5app\obj\Debug\net5.0\ref\Net5app.dll
+C:\Users\urajkovic\Desktop\c#app\udemy-practice\Net5app\Net5app\bin\Debug\net5.0\Net5app.exe
+C:\Users\urajkovic\Desktop\c#app\udemy-practice\Net5app\Net5app\bin\Debug\net5.0\Net5app.deps.json
+C:\Users\urajkovic\Desktop\c#app\udemy-practice\Net5app\Net5app\bin\Debug\net5.0\Net5app.runtimeconfig.json
+C:\Users\urajkovic\Desktop\c#app\udemy-practice\Net5app\Net5app\bin\Debug\net5.0\Net5app.runtimeconfig.dev.json
+C:\Users\urajkovic\Desktop\c#app\udemy-practice\Net5app\Net5app\bin\Debug\net5.0\Net5app.dll
+C:\Users\urajkovic\Desktop\c#app\udemy-practice\Net5app\Net5app\bin\Debug\net5.0\Net5app.pdb
+C:\Users\urajkovic\Desktop\c#app\udemy-practice\Net5app\Net5app\obj\Debug\net5.0\Net5app.csproj.AssemblyReference.cache
+C:\Users\urajkovic\Desktop\c#app\udemy-practice\Net5app\Net5app\obj\Debug\net5.0\Net5app.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\urajkovic\Desktop\c#app\udemy-practice\Net5app\Net5app\obj\Debug\net5.0\Net5app.AssemblyInfoInputs.cache
+C:\Users\urajkovic\Desktop\c#app\udemy-practice\Net5app\Net5app\obj\Debug\net5.0\Net5app.AssemblyInfo.cs
+C:\Users\urajkovic\Desktop\c#app\udemy-practice\Net5app\Net5app\obj\Debug\net5.0\Net5app.csproj.CoreCompileInputs.cache
+C:\Users\urajkovic\Desktop\c#app\udemy-practice\Net5app\Net5app\obj\Debug\net5.0\Net5app.dll
+C:\Users\urajkovic\Desktop\c#app\udemy-practice\Net5app\Net5app\obj\Debug\net5.0\refint\Net5app.dll
+C:\Users\urajkovic\Desktop\c#app\udemy-practice\Net5app\Net5app\obj\Debug\net5.0\Net5app.pdb
+C:\Users\urajkovic\Desktop\c#app\udemy-practice\Net5app\Net5app\obj\Debug\net5.0\Net5app.genruntimeconfig.cache
+C:\Users\urajkovic\Desktop\c#app\udemy-practice\Net5app\Net5app\obj\Debug\net5.0\ref\Net5app.dll

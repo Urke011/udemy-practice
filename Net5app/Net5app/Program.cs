@@ -36,7 +36,7 @@ namespace Net5app
             int myInt;
             //cast double into int 
             myInt = (int)myDouble;
-            
+
             //type conversion
 
             string myString = myDouble.ToString();
@@ -50,15 +50,53 @@ namespace Net5app
             //test
             string stringForFloat = "0.85"; // datatype should be float
             string stringForInt = "12345"; // datatype should be int
-            
+
 
             int i = Int32.Parse(stringForInt);
             float f = float.Parse(stringForFloat);
 
-            System.Console.WriteLine("Int = {0}, Float = {1}", i, f);
+            //System.Console.WriteLine("Int = {0}, Float = {1}", i, f);
+            //WhileLoop();
+            //ForLoop();
 
+            Run();
 
+        }
+        public static void ForLoop()
+        {
+            // TODO
+           
+            for (int j = -3; j <= 3; j++)
+            {
+                Console.WriteLine(j);
+            }
+        }
 
+        public static void WhileLoop()
+        {
+            int counter = 3;
+            // TODO
+            while (counter >= -3)
+            {
+                Console.WriteLine(counter);
+                counter--;
+            }
+        }
+        public static void Run()
+        {
+            int i = -10;
+
+            while (true)
+            {
+                if (i % 3 == 0)
+                {
+                    i++;
+                    continue;
+                }
+                if (i == 10)
+                    break;
+                Console.WriteLine(i++);
+            }
         }
     }
 }
