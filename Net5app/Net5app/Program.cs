@@ -6,97 +6,25 @@ namespace Net5app
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Hello World!");
+            Box box = new Box();
+            box.lenght = 3;
+            box.height = 2;
+            box.width = 2;
 
-            //console stay open
-            // Console.Read();
+            box.DisplayInfo();
 
-            //datatype
-            //declarin variale
-            int num1;
-            //assigning a value
-            num1 = 7;
-            //Console.Write(); -prints and the cursor stay in the SAME LINE
-
-            //Console.WriteLine(); -prints and puts the cursor in the NEXT LINE
-
-            //Console.Read() - takes a  single input of type string and it returns ths ASCII value of that input
-
-            //Console.ReadLine(); - takes a string or int input and returns it as the output value
-
-            //Console.ReadKey() - takes a single input of type string and it returns the Key Info
-
-            //CONVERSION
-            //implicit
-            int num = 1232445256;
-            long bigNum = num;
-
-            //explicet
-            double myDouble = 13.37;
-            int myInt;
-            //cast double into int 
-            myInt = (int)myDouble;
-
-            //type conversion
-
-            string myString = myDouble.ToString();
-            //Console.WriteLine(myString); "13.37"
-
-            //Parsing string to int
-
-            string myStringNum = "15";
-            int numString = Int32.Parse(myStringNum);
-
-            //test
-            string stringForFloat = "0.85"; // datatype should be float
-            string stringForInt = "12345"; // datatype should be int
-
-
-            int i = Int32.Parse(stringForInt);
-            float f = float.Parse(stringForFloat);
-
-            //System.Console.WriteLine("Int = {0}, Float = {1}", i, f);
-            //WhileLoop();
-            //ForLoop();
-
-            Run();
-
+            //create obj
+            Human uros = new Human("Uros", "Rajkovic");
+            //access public variable from outside
+           // uros.firstname = "Uros";
+            //uros.lastname = "Rajkovic";
+            //call method of class
+            uros.IntroduceMyself();    
+              Human denis = new Human("Denis", "Panjutha");
+           // denis.lastname = "Panjutha";
+            denis.IntroduceMyself();
+            Console.ReadKey();
         }
-        public static void ForLoop()
-        {
-            // TODO
-           
-            for (int j = -3; j <= 3; j++)
-            {
-                Console.WriteLine(j);
-            }
-        }
-
-        public static void WhileLoop()
-        {
-            int counter = 3;
-            // TODO
-            while (counter >= -3)
-            {
-                Console.WriteLine(counter);
-                counter--;
-            }
-        }
-        public static void Run()
-        {
-            int i = -10;
-
-            while (true)
-            {
-                if (i % 3 == 0)
-                {
-                    i++;
-                    continue;
-                }
-                if (i == 10)
-                    break;
-                Console.WriteLine(i++);
-            }
-        }
+        
     }
 }
